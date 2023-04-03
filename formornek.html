@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            margin-bottom: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container p-3 mt-5" style="background-color: gainsboro; border-radius: 10px;">
+        <form>
+            <div class="row  mb-3">
+                <div class="col-lg-6">
+                    <label class="form-label">Email:</label>
+                    <input type="email" class="form-control">
+                </div>
+
+                <div class="col-lg-6">
+                    <label class="form-label">Şifre:</label>
+                    <input type="password" class="form-control">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Adres Satırı 1:</label>
+                <input type="text" class="form-control" placeholder="Mahalle, Sokak, Cadde">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Adres Satırı 2:</label>
+                <input type="text" class="form-control" placeholder="Apartman, Kat, Daire">
+            </div>
+            <div class="row  mb-3">
+                <div class="col-lg-6">
+                    <label class="mb-1">Ülke</label>
+                    <select class="form-select">
+                        <option selected value="">Ülke Seçiniz</option>
+                        <option value="tr">Türkiye</option>
+                        <option value="en">England</option>
+                        <option value="fr">Français</option>
+                    </select>
+                </div>
+                <div class="col-lg-4">
+                    <label class="mb-1">Şehir</label>
+                    <select class="form-select">
+                        <option selected value="">Şehir Seçiniz</option>
+                        <option value="1">İstanbul</option>
+                        <option value="2">Ankara</option>
+                        <option value="3">İzmir</option>
+                    </select>
+                </div>
+                <div class="col-lg-2">
+                    <label class="mb-1">Posta Kodu</label>
+                    <input class="form-control" type="number">
+                </div>
+            </div>
+            <div class="form-check mb-3 ps-0">
+                <input class="form-check-control" type="checkbox">
+                <label class="form-check-label"><a color="blue" href="#">Kullanıcı Sözleşmesini</a> Okudum,
+                    Onaylıyorum!</label>
+            </div>
+            <button type="button" class="btn btn-primary mb-3">Kaydol</button>
+        </form>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
